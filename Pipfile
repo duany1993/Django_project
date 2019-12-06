@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pytz = {path = "./pytz-2019.2.tar.gz"}
+sqlparse = {path = "./sqlparse-0.3.0.tar.gz"}
+django = {path = "./Django-2.2.5.tar.gz"}
+pillow = {path = "./Pillow-6.2.0.tar.gz"}
+
+[requires]
+python_version = "3.7"
